@@ -8,10 +8,10 @@ Download `ojdbc17.jar` from the [Oracle JDBC Downloads page](https://www.oracle.
 
 **Compile:**
 ```
-javac -cp "lib/*.jar" -d out OracleScheduledQuery.java
+javac -cp "lib/*" -d out OracleScheduledQuery.java
 ```
 
 **Run:**
 ```
-java -cp "out;lib/*.jar" OracleScheduledQuery
+java -cp "out;lib/*" OracleScheduledQuery
 ```
