@@ -14,10 +14,10 @@ public class OracleScheduledQuery {
 
     private static final Logger LOGGER = Logger.getLogger(OracleScheduledQuery.class.getName());
 
-    private static final String DB_URL      = "jdbc:oracle:thin:@//localhost:1521/ORCLPDB1";
-    private static final String DB_USER     = "your_username";
-    private static final String DB_PASSWORD = "your_password";
-    private static final String QUERY       = "SELECT * FROM your_table WHERE ROWNUM <= 10";
+    private static final String DB_URL      = "jdbc:oracle:thin:@//localhost:1521/FREEPDB1";
+    private static final String DB_USER     = "globaltrade";
+    private static final String DB_PASSWORD = "pw";
+    private static final String QUERY       = "SELECT 'hi' FROM DUAL";
 
     private final ScheduledExecutorService scheduler;
 
